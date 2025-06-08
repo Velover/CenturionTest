@@ -1,0 +1,30 @@
+{
+  "name": "centuriontest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rbxts/compiler-types": "^3.0.0-types.0",
+    "@rbxts/types": "^1.0.857",
+    "@typescript-eslint/eslint-plugin": "^8.33.1",
+    "@typescript-eslint/parser": "^8.33.1",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.1",
+    "eslint-plugin-roblox-ts": "^0.0.36",
+    "prettier": "^3.5.3",
+    "roblox-ts": "^3.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@rbxts/centurion": "^1.0.1",
+    "@rbxts/centurion-ui": "Packages/rbxts-centurion-ui-1.0.5.tgz"
+  }
+}
